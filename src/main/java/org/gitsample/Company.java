@@ -9,6 +9,8 @@ public class Company {
 
 	private String name;
 	private String address;
+	private String city;
+
 	public String getName() {
 		return name;
 	}
@@ -20,6 +22,12 @@ public class Company {
 	}
 	public void setAddress(String address) {
 		this.address = address;
+	}
+	public String getCity() {
+		return name;
+	}
+	public void setCity(String city) {
+		this.city = city;
 	}
 	//Just a comment!
 	
